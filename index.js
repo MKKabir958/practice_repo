@@ -64,7 +64,11 @@ let filterBooks=books.filter((bk)=>{
 bk.genre=='History'
 })
 
+let filtered = books.filter((bk)=>{
+   return  bk.edition>2004;
 
+})
+//console.log(filtered)
 //console.log(filterBooks)
 
 let publishFilter=books.filter((bk)=>{
@@ -72,10 +76,10 @@ let publishFilter=books.filter((bk)=>{
     return bk.publish>=2000 && bk.genre=='History';
 })
 if(publishFilter==""){
-    console.log("The book data is not present ")
+   // console.log("The book data is not present ")
 }
 else{
-console.log(publishFilter)
+//console.log(publishFilter)
 }
 
 
@@ -87,4 +91,50 @@ const red_func = (h1, h2) => {
 }
 
 let red_arr = Arr.reduce(red_func)
+
 //console.log(red_arr)
+
+// FUNCTION TO CALCULATE CART PRICE IN E COMMERCE APPLICATION
+//USING REST OPERATOR .....
+
+function calculateCartPrice(...value){
+    return value;
+}
+
+let CCP=
+calculateCartPrice(500,2000,3000,100,800) 
+//console.log(CCP)
+let sum=0;
+
+CCP.forEach((element)=>{
+
+
+sum+=element;
+})
+//console.log(sum)
+//console.log(typeof CCP)
+
+
+//ARROW FUNCTION
+ 
+const arrowFunction = (num1,num2)=>
+(num1+num2);
+
+
+//console.log(arrowFunction(3,4))
+
+
+// IIFE :- IMMEDIATELY INVOKED FUNCTION EXPRESSION
+
+
+(function chai(){
+    console.log("DB CONNECTED");
+})();
+
+(()=>(console.log("DB 2 CONNECTED")))();
+
+( (num1,num2)=> ( 
+    console.log(num1+num2)
+))(3,4);
+
+((num1,num2)=>(console.log(num1+num2)))(2,2);
