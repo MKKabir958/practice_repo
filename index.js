@@ -32,7 +32,7 @@ for (let i in Arr) {
 //. ARRAY MAP METHOD 
 
 let newArray = Arr.map((value, index, array) => {
-    //console.log(value,index,array) 
+   // console.log(value,index,array) 
     return value + 1;
 })
 //console.log(newArray)
