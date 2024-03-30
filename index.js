@@ -126,15 +126,23 @@ const arrowFunction = (num1,num2)=>
 
 // IIFE :- IMMEDIATELY INVOKED FUNCTION EXPRESSION
 
-
+/*
 (function chai(){
     console.log("DB CONNECTED");
 })();
+ */
+//(()=>(console.log("DB 2 CONNECTED")))();
 
-(()=>(console.log("DB 2 CONNECTED")))();
-
-( (num1,num2)=> ( 
+/*( (num1,num2)=> ( 
     console.log(num1+num2)
-))(3,4);
+))(3,4);*/
 
-((num1,num2)=>(console.log(num1+num2)))(2,2);
+//((num1,num2)=>(console.log(num1+num2)))(2,2);
+
+
+const myObj ={
+    username:"Kabir",
+    password:123456
+}
+//console.log(typeof myObj)
+
