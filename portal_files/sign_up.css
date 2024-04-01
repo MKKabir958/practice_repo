@@ -1,0 +1,248 @@
+/* styleSignUpform.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root {
+    --colour: #171c1c;
+    
+}
+
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    /* background-color: #424848; */
+    /* #666d6d; */
+    background-image: url("https://images.rawpixel.com/image_social_landscape/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yMjJiYXRjaDUta3VsLTM2XzEuanBn.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* flex-direction: column; */
+    height: 100vh;
+    width: 100vw;
+}
+
+#logo {
+    width: 25rem;
+}
+
+.border {
+    /* border: 3px solid rgb(130, 127, 127); */
+    /* border-radius: 50px; */
+    /* background-color: #565e5e; */
+}
+
+form {
+    /* border: 2px solid black; */
+    /* padding: 5vw; */
+    /* height: 20%; */
+    text-align: center;
+}
+
+form input {
+    margin: 0.5vw;
+    border-radius: 50px;
+    border: 1px solid red;
+    padding: 0.9vw;
+    /* border:none; */
+    /* width: 50%; */
+    font-size: 1vw;
+    font-weight: 900;
+    text-align: center;
+    /* text-transform: capitalize; */
+    /* background-color: black; */
+    /* box-shadow: 10px 10px 0px rgba(125, 130, 100, 0.5); */
+    cursor: pointer;
+}
+
+.lower-part {
+    /* border: 2px solid red; */
+    /* display: flex;
+                                                                                          align-items: center;
+                                                                                                  justify-content: space-between;
+                                                                                                          gap: 2vw;
+                                                                                                                  margin-top: 2vw;
+                                                                                                                          color: #fff; */
+    margin: 2em;
+}
+
+.btn {
+    margin: 3vw 0;
+    width: 40%;
+    border-radius: 50px;
+    height: 3vw;
+    border: none;
+    font-weight: bolder;
+    font-size: 0.9em;
+    /* color: #fff; */
+    background-color: crimson;
+    cursor: pointer;
+    padding: 0 2em;
+    text-align: center;
+}
+
+#chk {
+    cursor: pointer;
+}
+
+.main h2 {
+    margin: 4vw;
+    text-align: center;
+    font-size: 2em;
+    /* color: #fff; */
+}
+
+.forget a {
+    text-decoration: none;
+    /* color: #fff; */
+}
+
+.low_inp input {
+    width: 95%;
+    /* margin: auto; */
+    text-align: center;
+    /* text-transform: capitalize; */
+}
+
+.outBorder {
+    display: none;
+}
+
+/* .low_sign {
+                                                                                                                                                                            border: 2px solid red;
+                                                                                                                                                                                } */
+
+
+
+
+#sign_btn:hover {
+    box-shadow: 10px 10px 0px rgba(125, 130, 100, 0.5);
+}
+
+#f_name:hover {
+    box-shadow: 10px 10px 0px rgba(125, 130, 100, 0.5);
+}
+
+#l_name:hover {
+    box-shadow: 10px 10px 0px rgba(125, 130, 100, 0.5);
+}
+
+#e_mail:hover {
+    box-shadow: 10px 10px 0px rgba(125, 130, 100, 0.5);
+}
+
+#pass_sign:hover {
+    box-shadow: 10px 10px 0px rgba(125, 130, 100, 0.5);
+}
+
+#con_pass:hover {
+    box-shadow: 10px 10px 0px rgba(125, 130, 100, 0.5);
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .main {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    #logo {
+        width: 10rem;
+    }
+
+    .border {
+        margin-right: 0;
+        /* max-width: 60%; */
+        /* border:2px solid red; */
+        border-radius: 20px;
+        padding: 15vw;
+        text-align: center;
+        /* border:2px solid red; */
+    }
+
+    .main h2 {
+        font-size: 1.4em;
+        margin-top: 5vw;
+        text-align: center;
+    }
+
+    .inBorder {
+        display: none;
+    }
+
+    .outBorder {
+        display: block;
+    }
+
+    #f_name,
+    #l_name {
+        padding: 2vw;
+        font-size: 0.45em;
+        font-weight: bolder;
+    }
+
+    .low_inp input {
+        padding: 2vw;
+        font-size: 0.6em;
+        font-weight: bolder;
+        width: 95%;
+        /* text-transform: capitalize; */
+
+    }
+
+    .lower-part {
+        /* border:2px solid red; */
+        /* padding:5vw; */
+        height: 30vh;
+        width: 55vw;
+    }
+
+    .chkbox {
+        /* max-width:90%; */
+        /* margin:auto; */
+        /* border:2px solid red; */
+        font-size: 0.7em;
+        /* text-align:center; */
+        display: inline;
+
+
+    }
+
+    .btn {
+        margin-top: 10vw;
+        width: 50vw;
+        height: 3vh;
+    }
+
+    .low_sign {
+        margin-top: 10vw;
+        /* border:2px solid red; */
+        /* display: inline; */
+        font-size: 0.9em;
+    }
+
+
+
+}

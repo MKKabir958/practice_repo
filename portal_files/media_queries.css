@@ -1,0 +1,69 @@
+@media screen and (max-width: 768px) {
+    .main_2 {
+        flex-direction: column;
+        justify-content: flex-start;
+        /* align-items: center; */
+
+        /* border:2px solid red; */
+    }
+
+    .border {
+        margin-right: 0;
+        /* max-width: 60%; */
+        /* border:2px solid red; */
+        border-radius: 20px;
+        padding: 15vw;
+        text-align: center;
+    }
+
+    #logo {
+        width: 10rem;
+        /* border:2px solid red; */
+        /* margin-bottom: 18vw; */
+    }
+
+    .main h2 {
+        /* margin: 0; */
+        /* padding:0; */
+        /* text-align: left; */
+        font-size: 1.4em;
+        margin-top: 5vw;
+        text-align: center;
+        /* border:2px solid red; */
+        /* margin-bottom:10vw; */
+        /* color: #fff; */
+    }
+
+    #user,
+    #pass {
+        width: 55vw;
+        padding: 2vw;
+        font-size: 0.8em;
+        /* border:none; */
+    }
+
+    .lower-part {
+        /* border:2px solid red; */
+        flex-direction: column;
+        font-size: 0.9em;
+        margin-top: 10vw;
+    }
+
+    .btn {
+        margin-top: 10vw;
+        width: 50vw;
+        height: 3vh;
+    }
+
+    .low_sign {
+        font-size: 0.9em;
+    }
+
+    .inBorder {
+        display: none;
+    }
+
+    .outBorder {
+        display: block;
+    }
+}
